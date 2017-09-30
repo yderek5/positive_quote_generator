@@ -1,0 +1,25 @@
+.text-box {
+	margin-top: 15%;
+	background-color: #263238;
+	position:relative;
+	height:100%;
+}
+body {
+	background-color: #272822;
+}
+.button-margin {
+	padding-bottom: 200px;
+}
+h1 {
+	color:white;
+}
+
+.button {
+	bottom:15px;
+	right:15px;
+	position:absolute;
+}
+p {
+	color:white;
+	opacity:0.5;
+}
