@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#newQuote").on("click", function() {
     $("#quote").empty();
-    var queryURL = "http://quotesondesign.com/wp-json/posts?filter[orderby]=random&filter[posts_per_page]=30";
+    var queryURL = "https://quotesondesign.com/wp-json/posts?filter[orderby]=random&filter[posts_per_page]=30";
     $.ajax({
       url: queryURL,
       method: "GET"
