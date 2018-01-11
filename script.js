@@ -7,7 +7,6 @@ $(document).ready(function() {
       method: "GET"
     }).done(function(response) {
       var post = response.shift();
-      var quoteArray = [];
       var randNum = Math.floor(Math.random() * response.length);
       console.log(response[randNum]);
       $("#quote").append(response[randNum].content);
